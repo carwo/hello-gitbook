@@ -32,3 +32,15 @@ $gitbook serve --port 8080
 ```
 $gitbook pdf ./content ./mybook.pdf
 ```
+### 发布到github网站
+可以将整个项目一起提交到github远程仓库，或者只提交html页面
+> 提交整个项目配置方式
+```
+$git add .
+$git commit -m 'init'
+$git push -u origin master
+```
+在github网站上面配置`Settings`->`Options`->`GitHub Pages`->`Source` branch选择master，路径选择html那个页面`docs`
+
+> 只提交html页面配置
+可以自己新建一个文件夹`content`用于放置源文件md格式，新建docs文件夹用于放置生成的html文件，再新建`.gitignore`文件配置git忽略文件配置，再推送项目到github
