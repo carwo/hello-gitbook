@@ -1,0 +1,10 @@
+{
+    "title": "webo's Glory",
+    "author": "webo",
+    "description": "gitbook hexo 个人博客",
+    "language": "zh-hans",
+    "gitbook": "3.2.3",
+    "structure": {
+        "readme": "README.md"
+    }
+}
